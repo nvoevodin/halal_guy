@@ -1,0 +1,16 @@
+.divStyle {
+  
+    width: 60%;
+    height: 370px;
+    margin:auto;
+    margin-top: 50px;
+  
+    align-items: center;
+    background: url('../assets/diagram.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    
+    
+    
+}

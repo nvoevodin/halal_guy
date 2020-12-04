@@ -9,7 +9,7 @@ function AddVendorJumbotron() {
      
 <Jumbotron fluid className = {classes.JumboWidth}>
   
-<h4 style = {{color:"white", marginBottom:'5%'}}>Halal Guy</h4>
+<h4 style = {{color:"white", marginBottom:'5%'}}><span style = {{fontWeight:'bolder'}}>Halal</span> <span style = {{fontWeight:'lighter'}}>Guy</span></h4>
     
   <p className={classes.MainText}>
       Express connection <br/> of your cart to <br /> Halal Guy.

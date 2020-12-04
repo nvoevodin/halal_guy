@@ -11,7 +11,7 @@ function MainJumbotron() {
   
 
     
-  <p className={classes.MainText}>Halal Guy</p>
+  <h1 style = {{color:'white', marginBottom:'2%'}}><span style = {{fontWeight:'bolder'}}>Halal</span> <span style = {{fontWeight:'lighter'}}>Guy</span></h1>
   <p className={classes.MainText}>
     Skip lines and enjoy your <br /> favorite food.
   </p>
