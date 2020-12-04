@@ -1,0 +1,13 @@
+.NavWidth {
+    width:100%;
+    margin: auto;
+   position: fixed;
+    top: 0;
+    height: 130;
+    border-bottom: solid 1px rgb(228, 219, 219);
+    overflow: hidden;
+      z-index: 1;
+      background-color: white;
+    
+    
+}

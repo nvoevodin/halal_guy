@@ -1,0 +1,31 @@
+.JumboWidth {
+    width:96%;
+    margin: auto;
+    height: 370px;
+  
+    align-items: center;
+    background: url('../../../assets/halalPic.jpg');
+    background-size: cover;
+    
+    
+    
+    
+}
+
+.MainText{
+    color: rgb(238, 230, 230);
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+
+.lineStyle {
+    background-color:rgba(167, 156, 156, 0.795)
+}
+
+.smallText {
+    color:rgba(238, 229, 229, 0.89)
+    
+}
+
+

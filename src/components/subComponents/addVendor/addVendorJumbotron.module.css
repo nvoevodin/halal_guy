@@ -1,0 +1,19 @@
+.JumboWidth {
+    padding: 50px 100px;
+    margin: auto;
+   
+  
+    align-items: center;
+    background: url('../../../assets/halalPic.jpg');
+    background-size: cover;
+    
+    
+    
+}
+
+.MainText{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+
+}
