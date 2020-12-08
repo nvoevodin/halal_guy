@@ -15,14 +15,10 @@ const editEmail = props => {
             <Row style={{ marginTop: '30%' }}>
                 <Col>
                     <Form onSubmit={()=>console.log('edit info')}>
-
-
                         <Form.Group controlId="email">
                             <Form.Label>Email*</Form.Label>
                             <Form.Control required placeholder="Email" name="email" type="email" onChange={handleChange} value={''} />
-
                         </Form.Group>
-
                         <Button>
                             Save
                         </Button>

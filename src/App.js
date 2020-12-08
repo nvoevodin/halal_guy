@@ -18,6 +18,7 @@ import Signup from './components/Signup';
 import Profile from './components/Profile'
 import EditName from './components/subComponents/profile/editName';
 import EditEmail from './components/subComponents/profile/editEmail';
+import EditPassword from './components/subComponents/profile/editPassword';
 
 //UTILITIES AND DECLARATIONS
 import { auth } from './services/firebase';
@@ -95,10 +96,12 @@ class App extends Component {
               <PublicRoute exact path="/login" authenticated={this.state.authenticated} component={Login} />
               <PublicRoute exact path="/signup" authenticated={this.state.authenticated}  component={Signup} />
               
-              {/**PROFILE ROUTES --WILL BE CHANGED TO DYNAMIC */}
+              {/**PROFILE ROUTES */}
               <PrivateRoute exact path="/profile" authenticated={this.state.authenticated}  component={Profile} />
               <PrivateRoute exacr path="/profile/editName" authenticated={this.state.authenticated}  component={EditName} />
               <PrivateRoute exacr path="/profile/editEmail" authenticated={this.state.authenticated}  component={EditEmail} />
+              <PrivateRoute exacr path="/profile/editPassword" authenticated={this.state.authenticated}  component={EditPassword} />
+
             </Switch>
           </Router>
         </div>

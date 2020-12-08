@@ -28,9 +28,11 @@ class Profile extends Component {
                                 Email: flopez@gmail.com
                     </ListGroup.Item>
                         </Link>
+                        <Link to="/profile/editPassword">   
                             <ListGroup.Item action onClick={() => console.log('')}>
                                 Password: *******
                     </ListGroup.Item>
+                    </Link>
                     <ListGroup.Item action onClick={() => console.log('')}>
                                 Payment Methods
                     </ListGroup.Item>
