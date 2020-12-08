@@ -1,26 +1,30 @@
 import React, { useState } from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
-export default function NameForm(props) {
-    const [name, setName] = useState("");
+export default function EditPassword(props) {
+    const [password, setName] = useState("");
 
     const handleSubmit = (evt) => {
         evt.preventDefault();
-        alert(`Submitting Name ${name}`)
+        //CHANGE PASSWORD
     }
     return (
-        <Container style={{marginTop: '30%'}}>
-            <form onSubmit={handleSubmit}>
-                <label>
-                    Password:
-                 <input
-                        type="text"
-                        value={name}
-                        onChange={e => setName(e.target.value)}
+        <Container style={{ marginTop: '30%' }}>
+            <Form onSubmit={handleSubmit}>
+                <Form.Group controlId="formBasicPassword">
+                    <Form.Label>Password:</Form.Label>
+                    <Form.Control 
+                        required placeholder="Password" 
+                        name="password" 
+                        type="password" 
+                        onChange={e => setName(e.target.value)} 
+                        value={password} 
                     />
-                </label>
-                <input type="submit" value="Submit" />
-            </form>
+                </Form.Group>
+                <Button type="submit">
+                    Save
+                </Button>
+            </Form>
         </Container>
     );
 }

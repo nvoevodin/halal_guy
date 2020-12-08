@@ -33,9 +33,11 @@ class Profile extends Component {
                                 Password: *******
                     </ListGroup.Item>
                     </Link>
+                    <Link to="/profile/paymentMethods"> 
                     <ListGroup.Item action onClick={() => console.log('')}>
                                 Payment Methods
                     </ListGroup.Item>
+                    </Link>
                     <ListGroup.Item action onClick={() => console.log('')}>
                                 Push Notifications
                     </ListGroup.Item>
